@@ -143,6 +143,6 @@
 
 @media (max-width: 600px) {
     img {
-      overflow: hidden;
+      overflow: scroll;
     }
   }
