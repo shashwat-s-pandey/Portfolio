@@ -30,6 +30,14 @@ h2 {
   max-width: 200px;
 }
 
+#welcome-section {
+  background: linear-gradient(
+    -180deg,
+    lightblue 25%,
+    white
+  );
+}
+
 section {
   padding: 2rem;
 }
@@ -54,14 +62,22 @@ a:link {
 }
 
 header {
-  background-color: lightblue;
+  background-color: linear-gradient(
+    180deg,
+    white 10%,
+    lightblue
+    );
   width: 100%;
   margin-left: 0px;
   position: fixed;
 }
 
 footer {
-  background-color: lightblue;
+  background-color: linear-gradient(
+    180deg,
+    white,
+    lightblue 95%
+    );
   width: 100%;
   margin-left: 0px;
 }
@@ -71,11 +87,24 @@ footer {
   color: blue;
   font-size: 2.5rem;
   padding: 15px;
-  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 #projects {
+  background: linear-gradient(
+    -180deg,
+    white 25%,
+    lightblue
+  );
   align-items: center;
+}
+
+#contact {
+  background: linear-gradient(
+    180deg,
+    lightblue 25%,
+    white
+    );
 }
 
 .project-grid {
@@ -99,6 +128,10 @@ footer {
   height: 300px;
   justify-content: center;
   object-fit: cover;
+}
+
+.project-tile img:hover{
+  transform: scale(1.15);
 }
 
 ul {
