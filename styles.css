@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Bahnschrift, sans-serif;
+  text-align: center;
+  color: black;
+  background-color: #e0eeff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Courier, sans-serif;
+  font-size: 3rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a img{
+  padding: 1rem;
+  max-width: 200px;
+}
+
+section {
+  padding: 2rem;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+li:hover {
+  background-color: blue;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  background-color: lightblue;
+  width: 100%;
+  margin-left: 0px;
+  position: fixed;
+}
+
+footer {
+  background-color: lightblue;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.bio {
+  opacity: 2%;
+  color: blue;
+  font-size: 2.5rem;
+  padding: 15px;
+  margin-top: -10px;
+}
+
+#projects {
+  align-items: center;
+}
+
+.project-grid {
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+}
+
+.project-tile {
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: center;
+  width: calc(100% / 2);
+}
+
+.project-tile img {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  object-fit: cover;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (width: 600px) {
+  img {
+    overflow: hidden;
+  }
+}
